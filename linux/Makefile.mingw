@@ -1,5 +1,0 @@
-all : main_client.exe
-	./main_client.exe
-
-main_client.exe : ../socket.c ../main_client.c
-	gcc $^ -o $@ -lws2_32
